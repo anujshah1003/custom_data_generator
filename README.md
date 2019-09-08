@@ -1,4 +1,11 @@
-﻿# Conti CV Python Base project
+﻿# Custom Data Generator
+ 
+ This repository elucidates the blog where I discussed how we can create our won custom data generator for different kind of inputs like single image input, a sequence of input or multiple input to be fed to multiple model (ensemble of model).
+
+The links of the blog are given below:
+
+[Chapter -1 : What is a generator function in python and the difference between yield and return].(https://medium.com/@anuj_shah/creating-custom-data-generator-for-training-deep-learning-models-part-1-5c62b20cff26)
+Chapter-2: Writing a generator function to read your data that can be fed for training an image classifier in Keras.
 
 This project is a template for Python projects, supplying the general layout and skeletons for mandatory files as defined in [the AIR CV style guide](http://github.conti.de/air-computer-vision/AirCvStyleGuide/blob/master/airCvPythonGuide.md).
 
