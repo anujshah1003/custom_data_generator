@@ -20,12 +20,16 @@ To create a data genrator you can follow the note book [flowers_recognition\data
 ## INSTALLATION
 
 ### PYTHON DEPENDENCIES
-I used conda environment and I have installed few libraries explicitly like keras, opencv. scikit-laern, pandas.
+I used conda environment and I have installed few libraries explicitly like keras, opencv,scikit-laern, pandas.
+
 All the libraries may not be present in the requirements.txt file
+
 if you are getting error in installing some libraries from requirements.txt the you can just use pip install library name without any specific version.
-'''
-pip install -r requirements.txt
-'''
+
+
+      pip install -r requirements.txt
+      pip install library_name
+
 
 
 ## Unit tests
