@@ -14,57 +14,19 @@ This README file contains general content and should be seen as a starting point
     
 # Usage
 
-Either clone this repository to start your own project or simply add all the files (also ```.gitignore```!) to the new project.
-__Please delete all lines in this README file above the next section in order to get a proper README file.__
-Edit all remaining lines in a meaningful way.
+To create a data genrator you can follow the note book [flowers_recognition\data_generator.ipynb]()
 
-# _insert project name_
-
-## COPYRIGHT
-
-Copyright 2017 Corp S&T CDS&T AIR CV & Contributors
-
-Licensed under the ContiSource License, Version 1.0.
-You may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-http://github.conti.de/pages/ContiSource/ContiForge/documents/CSLicense
-
-Software distributed under the License is distributed on AS IS BASIS and WITHOUT WARRANTY, either expressed or implied.
         
 ## INSTALLATION
 
 ### PYTHON DEPENDENCIES
+I used conda environment and I have installed few libraries explicitly like keras, opencv. scikit-laern, pandas.
+All the libraries may not be present in the requirements.txt file
+if you are getting error in installing some libraries from requirements.txt the you can just use pip install library name without any specific version.
+'''
+pip install -r requirements.txt
+'''
 
-Required python packages are collected in ```requirements.txt```, and can be installed (using pip) system-wide using
-```bash
-cd <project main folder>
-sudo pip install -r requirements.txt
-```
-or locally using
-```bash
-cd <project main folder>
-pip install --user -r requirements.txt 
-```
-### PACKAGE INSTALLATION
-
-The package can be installed system-wide using
-```bash
-sudo python setup.py  install
-```
-or locally using
-```bash
-python setup.py  install --user
-```
-If you want to edit the source files while using the library, it may be useful to replace ```install``` with ```develop```.
-
-## DEINSTALLATION
-
-Use
-```bash
-(sudo) pip uninstall <package name>
-```
-to uninstall the package.
 
 ## Unit tests
 
