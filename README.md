@@ -1,13 +1,15 @@
 ﻿# Custom Data Generator
  
- This repository elucidates the blog where I discussed how we can create our won custom data generator for different kind of inputs like single image input, a sequence of input or multiple input to be fed to multiple model (ensemble of model).
+ This repository elucidates the blog where I discussed how we can create our own custom data generator for different kind of inputs like single image input, a sequence of input or multiple input to be fed to multiple model (ensemble of model).
 
 The links of the blog are given below:
 
 [Chapter -1 : What is a generator function in python and the difference between yield and return](https://medium.com/@anuj_shah/creating-custom-data-generator-for-training-deep-learning-models-part-1-5c62b20cff26)
 
-[Chapter-2: Writing a generator function to read your data that can be fed for training an image classifier in Keras.]()
+[Chapter-2: Writing a generator function to read your data that can be fed for training an image classifier in Keras.](https://medium.com/@anuj_shah/creating-custom-data-generator-for-training-deep-learning-models-part-2-be9ad08f3f0e)
     
+I have used the code and concept of this blog as reference - http://www.jessicayung.com/using-generators-in-python-to-train-machine-learning-models/
+
 # Usage
 
 To create a data genrator you can follow the note book [flowers_recognition\data_generator.ipynb]()
