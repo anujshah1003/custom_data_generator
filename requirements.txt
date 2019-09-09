@@ -1,0 +1,9 @@
+Keras==2.2.4
+Keras-Applications==1.0.6
+Keras-Preprocessing==1.0.5
+matplotlib==3.0.2
+numpy==1.15.4
+opencv-python=3.4.2
+pandas==0.24.2
+Pillow==5.3.0
+scikit-learn==0.21.2
