@@ -8,6 +8,17 @@ from custom_dataloader import FlowerRecognition
 
 def load_model(pretrained_weights=None):
     
+    """
+    the method to load and returns pretrained or new model
+    
+    Args:
+        pretrained_weights-pretrained weights file
+        
+    Returns:
+        model - the loaded keras model
+    """
+    
+    
     input_shape = (Config.resize,Config.resize,3)
 #    print (input_shape)
     model = Sequential()
@@ -78,7 +89,7 @@ if __name__=='__main__':
               optimizer='rmsprop',
               metrics=['accuracy'])
     
-    model.fit_generator(
+    hist=model.fit_generator(
         train_generator,
         steps_per_epoch=num_train_samples // batch_size,
         epochs=Config.num_epochs,

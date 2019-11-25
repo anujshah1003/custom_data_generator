@@ -15,10 +15,26 @@ from config import Config
 
 class FlowerRecognition(object):
     
+    """
+    Implements a data loader that reads tha data and creates a data generator 
+    which can be directly used to train your model
+    """
+    
     def __init__(self,root_dir=None):     
         self.root_dir = root_dir
         
     def load_samples(self,csv_file):
+        
+        """
+        function to read a csv file and create a list of samples of format
+        [[image1_filename,label1], [image2_filename,label2],...].
+        
+        Args:
+            csv_file - csv file containing data information
+            
+        Returns:
+            samples - a list of format [[image1_filename,label1], [image2_filename,label2],...]
+        """
         # Read the csv file
         data = pd.read_csv(os.path.join(self.root_dir,'data_files',csv_file))
         data = data[['FileName', 'Label', 'ClassName']]
