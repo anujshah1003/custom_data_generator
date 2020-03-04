@@ -28,13 +28,3 @@ if you are getting error in installing some libraries from requirements.txt the 
       pip install -r requirements.txt
       pip install library_name
 
-
-
-## Unit tests
-
-To run all implemented unit tests, run
-
-```bash
-cd <project main folder>
-python -m unittest discover
-```
