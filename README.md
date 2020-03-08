@@ -5,6 +5,7 @@
 The links of the videos are given below:
 
 Part-1: Introduction - https://youtu.be/oy5EeamF_M8
+
 Part-2: What is a generator function - https://youtu.be/2tRR45vcn3o
 
 The links of the blog are given below:
