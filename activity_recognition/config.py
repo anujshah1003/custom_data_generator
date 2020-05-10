@@ -8,5 +8,3 @@ class Config():
     resize = 224	
     num_epochs =10
     batch_size =10
-
-
