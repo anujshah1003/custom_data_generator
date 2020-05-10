@@ -14,7 +14,7 @@ from keras.utils import np_utils
 
 from config import Config
 
-class DataGenerator(object):
+class ActionDataGenerator(object):
     
     def __init__(self,root_data_path,temporal_stride=1,temporal_length=16,resize=224):
         
@@ -129,7 +129,7 @@ if __name__=='__main__':
     
     root_data_path='data_files'
     
-    data_gen_obj=DataGenerator(root_data_path,temporal_stride=1,temporal_length=16)
+    data_gen_obj=ActionDataGenerator(root_data_path,temporal_stride=1,temporal_length=16)
 
     train_data = data_gen_obj.load_samples(data_cat='train')
 
