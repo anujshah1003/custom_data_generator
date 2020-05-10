@@ -1,6 +1,12 @@
 ﻿# Custom Data Generator
  
- This repository elucidates the blog where I discussed how we can create our own custom data generator for different kind of inputs like single image input, a sequence of input or multiple input to be fed to multiple model (ensemble of model).
+ This repository elucidates the video and the blog where I discussed how we can create our own custom data generator for different kind of inputs like single image input, a sequence of input or multiple input to be fed to multiple model (ensemble of model).
+
+The links of the videos are given below:
+
+Part-1: Introduction - https://youtu.be/oy5EeamF_M8
+
+Part-2: What is a generator function - https://youtu.be/2tRR45vcn3o
 
 The links of the blog are given below:
 
@@ -28,13 +34,3 @@ if you are getting error in installing some libraries from requirements.txt the 
       pip install -r requirements.txt
       pip install library_name
 
-
-
-## Unit tests
-
-To run all implemented unit tests, run
-
-```bash
-cd <project main folder>
-python -m unittest discover
-```
