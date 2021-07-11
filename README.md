@@ -1,4 +1,6 @@
-﻿# Custom Data Generator
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/anujshah645)
+
+# Custom Data Generator
  
  This repository elucidates the video and the blog where I discussed how we can create our own custom data generator for different kind of inputs like single image input, a sequence of input or multiple input to be fed to multiple model (ensemble of model).
 
