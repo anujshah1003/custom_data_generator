@@ -10,11 +10,17 @@ Part-1: Introduction - https://youtu.be/oy5EeamF_M8
 
 Part-2: What is a generator function - https://youtu.be/2tRR45vcn3o
 
+Part-3: For single image input - https://www.youtube.com/watch?v=EkzB6PJIcCA&list=PLd9i_xMMzZF6mxod8D1CfqhMy85dyLMq2&index=8
+
+Part-4: For temporal input / video - https://www.youtube.com/watch?v=TyM1F0fvwoI&list=PLd9i_xMMzZF6mxod8D1CfqhMy85dyLMq2&index=9
+
 The links of the blog are given below:
 
 [Chapter -1 : What is a generator function in python and the difference between yield and return](https://medium.com/@anuj_shah/creating-custom-data-generator-for-training-deep-learning-models-part-1-5c62b20cff26)
 
 [Chapter-2: Writing a generator function to read your data that can be fed for training an image classifier in Keras.](https://medium.com/@anuj_shah/creating-custom-data-generator-for-training-deep-learning-models-part-2-be9ad08f3f0e)
+
+[Chapter-3: Writing generator function for different kind of inputs — multiple input or sequence of input.](https://medium.com/@anuj_shah/creating-custom-data-generator-for-training-deep-learning-models-part-3-c239297cd5d6)
     
 I have used the code and concept of this blog as reference - http://www.jessicayung.com/using-generators-in-python-to-train-machine-learning-models/
 
